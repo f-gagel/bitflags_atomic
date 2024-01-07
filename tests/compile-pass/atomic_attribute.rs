@@ -13,3 +13,5 @@ fn main() {
     let flags = MyAtomicFlags::default();
     flags.fetch_insert(MyFlags::A, core::sync::atomic::Ordering::Relaxed);
 }
+
+aaa
